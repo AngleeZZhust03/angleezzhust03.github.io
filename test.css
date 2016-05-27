@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/* 本文中の枠 */
+.bg-solid{
+    border: 2px solid #DCDCDC;
+    background: #F3F3F3;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.bg-frame{
+    border: 2px solid #DCDCDC;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+/* シェアボタン */
+.share-flat{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-flat-inner a {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.share-flat .small-text{
+    font-size: 10px;
+}
+.share-flat .hatena-bookmark-button{
+    background: #00A4DE;
+}
+.share-flat .twitter-button{
+    background: #55ACEE;
+}
+.share-flat .googleplus-button{
+    background: #C53727;
+}
+.share-flat .facebook-button{
+    background: #405BA7;
+}
+.share-flat .pocket-button{
+    background: #EE4256;
+}
+.share-flat .line-button{
+    position:relative;
+    top: 1px;
+    background: #00C300;
+}
+.share-flat a:hover{
+    opacity: 0.6;
+}
+@media screen and (min-width: 480px) {
+    .line-hide{
+        display: none;
+    }
+    .share-flat-inner a{
+        width: 18%;
+    }
+}
+
+/* フォローボタン */
+.follow-btn{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.follow-btn a {
+    display: inline-block;
+    height: 45px;
+    line-height: 22px;
+    width: 25%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btn .hatena {
+    color: #3D3F44;
+    border: 2px solid #3D3F44;
+    background: #ffffff; 
+}
+.follow-btn .twitter {
+    color: #00ACEE;
+    border: 2px solid #00ACEE;
+    background: #ffffff; 
+}
+.follow-btn .feedly { 
+    color: #70CA3B;
+    border: 2px solid #70CA3B;
+    background: #ffffff;
+}
+.follow-btn .hatena:hover {
+    color: #ffffff;
+    background: #3D3F44;
+    transition: all .3s;
+}
+.follow-btn .twitter:hover {
+    color: #ffffff;
+    background: #00ACEE;
+    transition: all .3s;
+}
+.follow-btn .feedly:hover {
+    color: #ffffff;
+    background: #70CA3B;
+    transition: all .3s;
+}
+.text-small{
+    font-size: 9px;
+}
+
+/* パンくずリスト */
+div #breadcrumb div {
+    display: inline;
+    font-size: 13px;
+}
+
+/* マーカー */
+.y_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #FFFF00 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #FFFF00 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #FFFF00 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #FFFF00 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #FFFF00 0%);           /* Default */
+}
+.g_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #00FF00 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #00FF00 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #00FF00 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #00FF00 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #00FF00 0%);           /* Default */
+}
+.m_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #FF00FF 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #FF00FF 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #FF00FF 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #FF00FF 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #FF00FF 0%);           /* Default */
+}
